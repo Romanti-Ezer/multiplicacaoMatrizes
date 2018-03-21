@@ -2,7 +2,7 @@ function criarMatrizes() {
     let matrizA = document.getElementById("matrizA")
     let matrizB = document.getElementById("matrizB")
     let matrizC = document.getElementById("matrizC")
-    
+
     let matriz = ['A', 'B', 'C']
 
     for (cont = 0; cont < matriz.length; cont++) {
@@ -52,9 +52,13 @@ function checkarInputsPreenchidos() {
     }
     console.log("Pronto para o cálculo! Vamos lá")
     // Implementar código para calcular
+    // multiplicarMatrizes()
     return true
 }
 
+function multiplicarMatrizes() {
+    // A ser implementado
+}
 console.log("Criando matrizes...")
 criarMatrizes()
 console.log("Matrizes criadas - ", Date())
